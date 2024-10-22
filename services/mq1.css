@@ -1,0 +1,149 @@
+@media (max-width:1340px)
+{
+    .box p{
+        
+        overflow: hidden;
+    }
+}
+
+@media (max-width:1024px)
+{
+    #container {
+        flex-direction: column;
+        height: 2150px;
+        justify-content: space-around;
+    }
+    .gallery
+    {
+        width: 100%;
+    }
+   .box{
+        grid-column: span 3;
+    }
+    .left-text
+    {
+        flex-basis: 10%;
+        align-items: center;
+        display: flex;
+    }
+}
+
+@media (max-width:620px)
+{
+    .left-text
+    { 
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    #container
+    {
+        width: 140%;
+    }
+    .box p{
+        font-size: 17px;
+        line-height: 21px;
+    }
+    .box h2{
+        font-size: 30px;
+
+    }
+    #container .subheading
+    {
+        font-size: 20px;
+    }
+
+}
+@media (max-width: 380px)
+{
+    #container
+    {
+        width: 180%;
+        overflow: hidden;
+    }
+    .box p{
+        font-size: 22px;
+    }
+}
+
+
+
+@media (max-width:1024px)
+{
+    #otherservices{
+        flex-direction: column;
+        
+    }
+    #right-div
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .os
+    {
+        display: flex;
+        height: 300px;
+    }
+}
+
+@media (max-width:770px)
+{
+    #right-div
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    .os{
+        height: 500px;
+    }
+
+}
+
+@media (min_width:380px)and(max-width:625px){
+    .os{
+        flex-direction: column;
+
+        height: 100px;
+    }
+    #right-div
+    {
+        align-items: center;
+        overflow: hidden;
+    }
+    #otherservices
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+} 
+
+
+
+
+
+/* Extra Small (XS) - Mobile devices */
+/* @media (max-width: 575.98px) {
+  } */
+  
+  /* Small (SM) - Tablets and larger mobile devices */
+  /* @media (min-width: 576px) and (max-width: 767.98px) {
+  } */
+  
+  /* Medium (MD) - Tablets in landscape mode and smaller desktops */
+  /* @media (min-width: 768px) and (max-width: 991.98px) {
+  } */
+  
+  /* Large (LG) - Desktops and larger devices */
+  /* @media (min-width: 992px) and (max-width: 1199.98px) {
+  } */
+  
+  /* Extra Large (XL) - Very large screens */
+  /* @media (min-width: 1200px) {
+  } */

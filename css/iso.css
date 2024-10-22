@@ -1,0 +1,142 @@
+#c1{
+    /* margin-top: 50px; */
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    /* background: linear-gradient(to left,rgb(130, 79, 182),rgb(144, 97, 191)); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#c1 h1{
+    color: white;
+    text-align: center;
+}
+
+#footer
+{
+    padding: 20px 40px 20px 40px;
+    width: 100%;
+    /* background-color: red; */
+    background-color:darkgray;
+    
+    
+}
+
+#c2
+{
+    display: flex;
+
+}
+#f1 p{
+    font-weight: 550;
+}
+#f1
+{
+    text-align: center;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#f2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    justify-content: space-between;
+}
+
+#f1 .a1{
+    background-color: #8b12bb;
+    color: white;
+    transition: 0.25s ease-in;
+    padding: 10px;
+    text-decoration: none;
+    width: 100px;
+    border-radius: 50px;
+}
+
+#f1 .a1:hover{
+    background-color: #f65207;
+}
+
+#f3
+{
+    width: 33%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.x1{
+    transition: all ease-in ; 
+    text-decoration: none;
+    color: black;
+}
+.x1:hover{
+    color: rebeccapurple;
+    font-size: medium;
+}
+
+:root{
+    --primary-color:white;
+    --secondry-color:#333;
+    --main-color:#754ef9;
+}
+
+.sm a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px rgba(0, 0,0, .2);
+    font-size: 20px;
+    color: var(--main-color);
+    text-decoration: none;
+    margin: 15px 15px 30px 0;
+    transition: .5s ease;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+
+}
+.sm a:hover{
+    background: var(--main-color);
+    color: white;
+
+}
+@keyframes slideLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+#l1
+{
+    display: flex;
+    justify-content: space-between;
+}
+#cr{
+    font-weight: 300;
+}
+#dev{
+    font-weight: 300;
+}
+#l1 #dev #developer
+{
+    font-weight: bold;
+}

@@ -1,0 +1,33 @@
+ @media (max-width:439px)
+{
+    html,body{
+        width: 120%;
+    }
+}
+
+@media (max-width:297px)
+{
+    html,body{
+        width: 140%;
+    }
+}
+
+@media (max-width:376px)
+{
+    html,body
+    {
+        width: 140%;
+    }
+}
+@media (max-width:536px)
+{
+    html,body{
+        width: 140%;
+    }
+}
+@media (max-device-width:297px )and (orientation:landscape)
+{
+    html,body{
+        width: 140%;
+    }
+}

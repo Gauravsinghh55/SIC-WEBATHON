@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(255, 255, 255, 0.238);
+}
+#main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0px 40px 0 40px;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+}
+ul
+{
+    display: flex;
+    list-style: none;
+}
+ul li
+{
+    margin: 15px;
+}
+.aa{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 2s ease-out 0.1s;
+    border: 1px transparent black;
+    padding: 7px;
+    border-radius: 25px;
+}
+.aa:hover
+{
+    color: black;
+    background-color: #8b12bb;
+    transform: scale(0.25s);
+    font-weight: 500;
+}
+#im
+{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+}                    
+header
+{
+    margin-top: 20px;
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+    border-radius: 8px;
+    background: linear-gradient(to top,rgb(122, 76, 169),rgb(180, 148, 217));
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3.0em;
+    color: black;
+}
+header p {
+    font-size: 1.2em;
+    color: white;
+    margin-top: 10px;
+}
+#mid
+{
+    margin-left: 40px;
+    margin-right: 40px;
+    background: linear-gradient(to top,rgb(122, 76, 169),rgb(180, 148, 217));
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#mid h1
+{
+    color: black;
+    font-size: 1000;
+    margin-left: 40px;
+    text-align: start;
+       
+}
+#mid p
+{
+    margin-top: 20px;
+    line-height: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#mid #bold-text
+{
+    font-weight: bold;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+#mid #at
+{
+    font-weight: lighter;
+}
+
+#c1
+{
+    margin-top: 50px;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    /* background: linear-gradient(to left,rgb(130, 79, 182),rgb(144, 97, 191)); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#c1 h1
+{
+    color: white;
+    text-align: center;
+}
+
+#footer
+{
+    padding: 20px 40px 20px 40px;
+    width: 100%;
+    /* background-color: red; */
+    background-color:darkgray;
+}
+
+#c2
+{
+    display: flex;
+
+}
+#f1 p
+{
+    font-weight: 550;
+}
+
+#f1
+{
+    text-align: center;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#f2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    justify-content: space-between;
+}
+
+#f1 .a1{
+    background-color: #8b12bb;
+    color: white;
+    transition: 0.25s ease-in;
+    padding: 10px;
+    text-decoration: none;
+    width: 100px;
+    border-radius: 50px;
+}
+
+#f1 .a1:hover
+{
+    background-color: #f65207;
+}
+
+#f3
+{
+    width: 33%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.x1{
+    transition: all ease-in ; 
+    text-decoration: none;
+    color: black;
+}
+.x1:hover{
+    color: rebeccapurple;
+    font-size: medium;
+}
+
+:root{
+    --primary-color:white;
+    --secondry-color:#333;
+    --main-color:#754ef9;
+}
+
+.sm a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px rgba(0, 0,0, .2);
+    font-size: 20px;
+    color: var(--main-color);
+    text-decoration: none;
+    margin: 15px 15px 30px 0;
+    transition: .5s ease;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+
+}
+
+.sm a:hover{
+    background: var(--main-color);
+    color: white;
+
+}
+
+@keyframes slideLeft 
+{
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+#l1
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#cr{
+    font-weight: 300;
+}
+
+#dev{
+    font-weight: 300;
+}
+
+#l1 #dev #developer
+{
+    font-weight: bold;
+}

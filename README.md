@@ -16,7 +16,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/Gauravsinghh55/SIC-WEBATHON-
+git clone https://github.com/Gauravsinghh55/SIC-WEBATHON
 Navigate to the project folder:
 
 bash
